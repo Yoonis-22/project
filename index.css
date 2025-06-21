@@ -525,6 +525,9 @@ hr{
      border-radius: 10px;
      color: #221D77;
 }
+.core:hover{
+    transform: translateY(-20px);
+}
 .htm{
     display: flex;
     gap: 90px;
@@ -635,6 +638,9 @@ hr{
      border-radius: 10px;
      color: #221D77;
 }
+.nvbr:hover{
+    transform: translateY(-20px);
+}
 .core-container{
     display: flex;
     gap: 50px;
@@ -654,7 +660,7 @@ hr{
     color: #221D77;
 }
 
-/* secttion-6 */
+/* secttion-7 */
 #pm{
     border: none;
     color: #221D77;
@@ -683,6 +689,9 @@ hr{
     padding: 20px 20px;
     border-radius: 10px;
 }
+.testi-box:hover{
+    transform: translatey(-10px);
+}
 .tes-box{
      background: linear-gradient(to right, #EAEFFC, #FEF4EB);
     width: 380px;
@@ -690,10 +699,11 @@ hr{
     padding: 20px 20px;
     border-radius: 10px;
 }
-.test-right{
-    margin-top: 5%;
+.tes-box:hover{
+    transform: translateY(-10px);
+}
 
-}.tes-box i{
+.tes-box i{
     font-size: 3.5em;
     color: #221D77;
     margin-bottom: 5px;
@@ -720,6 +730,12 @@ hr{
     border-radius: 5px;
     position: relative;
     margin-bottom: 30px;
+    
+
+    
+}
+.tes:hover{
+    transform: translateY(-20px);
     
 }
 .tes-tt{
@@ -749,20 +765,91 @@ hr{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
-    
-    
 }
 .test-title{
-    margin-left: 5%;
-    margin-top: 8%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.test-title h1{
+    font-size: 2.5em;
+}
+.test-title p{
+    margin-bottom: 10px;
+    color: #221D77;
 }
 .testi-container{
     display: flex;
-    gap: 40px;
+    gap: 70px;
     margin-top: -15%;
     overflow: hidden;
-    margin-left: 5%;
+    margin-left: 10%;
     
+}
+/* section-8 */
+
+.client-box{
+    margin-bottom: 20px;
+   
+}
+.client-box img{
+    background-color: #000041;
+    width: 130px;
+    height: 130px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+.clien-box img{
+    background-color: #000041;
+    width: 130px;
+    height: 130px;
+     background-color: #34BC85;
+     padding: 10px 10px;
+      border-radius: 10px;
+}
+.clien-box img:nth-of-type(2){
+    background-color: #FF3767;
+     border-radius: 10px;
+}
+.clien-box img:nth-of-type(3){
+    background-color: #F8D84A;
+     border-radius: 10px;
+}
+.client-box img:nth-of-type(2){
+    background-color: #C2EEC1;
+     border-radius: 10px;
+}
+.client-box img:nth-of-type(3){
+    background-color: #FFE9DF;
+     border-radius: 10px;
+}
+.left-clients p{
+    color: #221D77;
+}
+.left-clients i{
+    font-size: 1.4em;
+}
+.left-clients i:hover{
+    transform: scaleX(-1);
+    
+}
+.left-clients h1{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+.left-clients p:nth-of-type(2){
+    color: #8F8EA8;
+}
+#bv{
+    border: none;
+    margin-bottom: 10px;
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px;
+     background:linear-gradient(to right, #DAE9FF,#FCEEED);
+     margin-top: 5%;
 }
 @keyframes left {
     0%{
