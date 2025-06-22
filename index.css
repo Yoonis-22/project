@@ -12,7 +12,12 @@ html{
     justify-content: space-between;
     padding: 10px 40px;
 }
-
+.header i{
+    font-size: 2.5em;
+    margin-top: 15px;
+    color: #8F8EA8;
+    display: none;
+}
 .header ul {
     display: flex;
     gap: 40px;
@@ -107,7 +112,7 @@ html{
 }
 .center img{
     width: 650px;
-    margin-top: -15px;
+    /* margin-top: -15px; */
 
     
 }
@@ -119,13 +124,16 @@ html{
 }
 .center p{
     font-size: 16px;
-    margin-left: 35%;
+    margin-left: 23%;
     color: white;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 .center{
     animation: center 2s ease-in-out forwards ;
     animation-delay: 1s;
+    animation-play-state: running;
+    margin-top: -30%;
+    margin-left: 23%;
 }
 span{
     color: #FF6D5A;
@@ -430,6 +438,7 @@ hr{
     width: 90px;
     border-radius:7px;
 }
+
 .blog{
     display: flex;
     justify-content: space-evenly;
@@ -853,15 +862,70 @@ hr{
 }
 
 /* section-9 */
+.footer{
+    background: linear-gradient(to right, #FF651D , #FF9521);
+    color: white;
+}
 .footer1{
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px;
-    margin-top: 20px;
+    padding: 5% 40px;
 }
 .footer2{
     display: flex;
     justify-content: space-between;
+    padding: 0px 30px;
+    margin-top: -10px;
+}
+.input-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5D1D;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 877.4%;
+    left: 18%;
+}
+.footer-icon i:hover{
+    color:black;
+}
+.input-icon i{
+    font-size: 1.5em;
+    margin-top: -3px;
+    
+
+}
+.foter-inpu input:hover{
+    background-color: black;
+}
+.foter-inpu input{
+     margin-top: 10px;
+    width: 200px;
+    height: 45px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    border: none;
+   background-color: #FFE9DF;
+    position: relative;
+
+}
+.nam h3{
+    margin-left: 15px;
+}
+.nam p{
+    margin-left: 15px;
+}
+.footer-icon{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.footer-icon i{
+    font-size: 2em;
+
 }
 .nam h3{
     margin-bottom: 20px;
@@ -874,7 +938,23 @@ hr{
 
 }
 .privacy p{
-    line-height: 30px;
+    line-height: 40px;
+}
+.footer-copy{
+    margin-top: 60px;
+}
+.canada h3{
+    margin-bottom: 5px;
+}
+.canada p{
+    line-height: 35px;
+
+}
+.Germany h3{
+    margin-bottom: 5px;
+}
+.Germany p{
+    line-height: 35px;
 }
 @keyframes left {
     0%{
@@ -910,3 +990,84 @@ hr{
 
 }
 
+@media(max-width:390px){
+    .header ul{
+        display: none;
+    }
+    .header i{
+        display: block;
+    }
+    .btn button{
+        display: none;
+    }
+    .color{
+        height: 130vh;
+    }
+    .main{
+        display: flex;
+        padding: 0;
+        padding: 20px 10px;
+    }
+    
+    .hero{
+        display: block;
+        padding: 20px 30px;
+    }
+    .lx{
+        margin-left: -50px;
+        margin-top: -20px;
+    }
+    .bx{
+        margin-left: -60px;
+        margin-top: 30px;
+    }
+    .tit{
+        margin-left: 30px;
+        margin-top: 3%;
+    }
+    .cont{
+        display: block;
+        margin-left: -7%;
+        margin-top: 3%;
+    }
+    .box-cont{
+        margin-bottom: 50px;
+    }
+    .blog{
+        display: block;
+        height: 250vh;
+        padding-left: 15%;
+    }
+    .vg{
+        display: block;
+    }
+    .mr img{
+        width: 300px;
+    }
+    .nb i{
+        margin-left: -90px;
+    }
+    .mq{
+        display: block;
+    }
+    .nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 170px;
+    font-size: 1em;
+    gap: 40px;
+      
+      
+
+    }
+    .kl{
+      margin-top: -20px;
+      margin-bottom: 10px;
+      
+    }
+
+    .core-container{
+        display: block;
+    }
+
+}
