@@ -1,4 +1,4 @@
-*{Add commentMore actions
+*{
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -6,7 +6,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+.header a{
+    text-decoration: none;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -110,9 +112,9 @@ html{
 .icon i:hover{
     color: #FF6D5A;
 }
-.center img{
+.cen-img img{
     width: 650px;
-    /* margin-top: -15px; */
+    margin-top: -15px;
 
     
 }
@@ -129,11 +131,11 @@ html{
     margin-top: -15px;
 }
 .center{
-    animation: center 2s ease-in-out forwards ;
+    /* animation: center 2s ease-in-out forwards ;
     animation-delay: 1s;
-    animation-play-state: running;
+    animation-play-state: running; */
     margin-top: -30%;
-    margin-left: 23%;
+    margin-left: 22%;
 }
 span{
     color: #FF6D5A;
@@ -1007,6 +1009,15 @@ hr{
         display: flex;
         padding: 0;
         padding: 20px 10px;
+    }
+    .cen-img img{
+        margin-left: -55%;
+    }
+    .center{
+        margin-top: 2%;
+    }
+    .center p{
+        font-size: 12px;
     }
     
     .hero{

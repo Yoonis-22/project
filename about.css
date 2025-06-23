@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.header a{
+    text-decoration: none;
+}
+.header i{
+    font-size: 2.5em;
+    margin-top: 15px;
+    color: #8F8EA8;
+    display: none;
+}
+.header ul {
+    display: flex;
+    gap: 40px;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+.header li:hover{
+    color: #FF6D5A;
+    cursor: pointer;
+}
+.header li{
+    list-style: none;
+    color: #8F8EA8;
+}
+.header li:nth-of-type(1){
+    color: #FF6D5A;
+}
+.header img{
+    width: 130px;
+}
+.btn{
+    margin-top: 7px;
+}
+.btn button {
+    border: none;
+    background: none;
+    background-color: #FF6D5A;
+    color: white;
+    padding: 15px 30px;
+    border-radius:10px ;
+
+}
+.btn button:hover{
+    background-color: #0F0C51;
+    color: white;
+}
+.color{
+    background:linear-gradient(to right, #0A0831, #221D77) ;
+    height: 65vh;
+}
+
+.about-title{
+    text-align: center;
+    margin-top: 6%;
+}
+.about-title p{
+    margin-bottom: 10px;
+    color: white;
+}
+.about-title h1{
+    font-size: 3em;
+    color: aliceblue;
+}
+.about-title p:nth-of-type(2){
+    color: #FF6D5A;
+    
+}
+span{
+    color: #8F8EA8;
+    margin-left: 10px;
+}
+
+/* section-2 */
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.hero-left img{
+    width: 300px;
+    background: linear-gradient(to top, #0E0B34, #65315A);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.hero-right{
+    margin-top: -1.6%;
+    margin-left: -5%;
+}
+#sum p{
+    font-size: 3em;
+    color: #12103E;
+    margin-bottom: 10px;
+}
+.nickname{
+    margin-bottom: 10px;
+}
+.nickname p{
+    color: #767682;
+}
+.nickname h4{
+    font-size: 1.2em;
+    color: #12103E;
+}
+.nationality{
+    margin-bottom: 10px;
+}
+.nationality p{
+    color: #767682;
+}
+.nationality h4{
+    color:#12103E;
+    font-size: 1.2em;
+}
+.location{
+    margin-bottom: 10px;
+}
+.location p{
+    color: #767682;
+}
+.location h4{
+    font-size: 1.2em;
+    color: #12103E;
+}
+.education{
+    margin-bottom: 10px;
+}
+.education p{
+    color: #767682;
+}
+.education h4{
+    font-size: 1.2em;
+    color: #12103E;
+}
+.Hobby{
+    margin-bottom: 10px;
+}
+.Hobby p{
+    color: #767682;
+}
+.Hobby h4{
+    font-size: 1.2em;
+    color: #12103E;
+}
+.Email p{
+    color: #767682;
+}
+.Email h4{
+    color: #12103E;
+    font-size: 1.2em;
+}
+
+/* section-3 */
+.footer{
+    background: linear-gradient(to right, #FF651D , #FF9521);
+    color: white;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 40px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-top: -10px;
+}
+.input-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5D1D;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 186.5%;
+    left: 18%;
+}
+.footer-icon i:hover{
+    color:black;
+}
+.input-icon i{
+    font-size: 1.5em;
+    margin-top: -3px;
+    
+
+}
+.foter-inpu input:hover{
+    background-color: black;
+}
+.foter-inpu input{
+     margin-top: 10px;
+    width: 200px;
+    height: 45px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    border: none;
+   background-color: #FFE9DF;
+    position: relative;
+
+}
+.nam h3{
+    margin-left: 15px;
+}
+.nam p{
+    margin-left: 15px;
+}
+.footer-icon{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.footer-icon i{
+    font-size: 2em;
+
+}
+.nam h3{
+    margin-bottom: 20px;
+}
+.nam input{
+    margin-bottom: 20px;
+}
+.hom p{
+    line-height: 30px;
+
+}
+.privacy p{
+    line-height: 40px;
+}
+.footer-copy{
+    margin-top: 60px;
+}
+.canada h3{
+    margin-bottom: 5px;
+}
+.canada p{
+    line-height: 35px;
+
+}
+.Germany h3{
+    margin-bottom: 5px;
+}
+.Germany p{
+    line-height: 35px;
+}
