@@ -131,9 +131,6 @@ html{
     margin-top: -15px;
 }
 .center{
-    animation: center 2s ease-in-out forwards ;
-    animation-delay: 1s;
-    animation-play-state: running;
     margin-top: -30%;
     margin-left: 22%;
 }
@@ -203,6 +200,7 @@ hr{
 }
 .hero-left{
     position: relative;
+    
 }
 .bx{
     position: absolute;
@@ -215,6 +213,9 @@ hr{
     color: black;
     padding: 10px 10px;
     border-radius: 10px;
+    animation: main-right 2s ease-in-out forwards;
+    animation-delay: 1s;
+    
     
     
 }
@@ -246,8 +247,11 @@ hr{
     color: white;
     border-radius: 10px;
     position: absolute;
-    top: 140%;
-    left: 60px;
+    top: 6%;
+    left: -70px;
+    z-index: 1;
+    animation: main-left 2s ease-in-out forwards;
+    animation-delay: 1s;
 }
 .lx-h h3{
     font-size: 35px;
@@ -260,6 +264,7 @@ hr{
 }
 .hero-right{
     margin-top: 3%;
+    
 }
 .hero-right p:nth-of-type(1){
     font-size: 25px;
@@ -834,6 +839,9 @@ hr{
     background-color: #FFE9DF;
      border-radius: 10px;
 }
+.client-box img:nth-of-type(3):hover{
+    
+}
 .left-clients p{
     color: #221D77;
 }
@@ -861,6 +869,12 @@ hr{
     padding: 70px 100px;
      background:linear-gradient(to right, #DAE9FF,#FCEEED);
      margin-top: 5%;
+}
+.client-box img:hover{
+    transform: translateY(-10px);
+}
+.clien-box img:hover{
+    transform: translateY(-10px);
 }
 
 /* section-9 */
@@ -991,6 +1005,26 @@ hr{
     }
 
 }
+@keyframes main-left{
+    0%{
+        opacity: 0;
+        transform: translateX(-70px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
+@keyframes main-right{
+    0%{
+        opacity: 0;
+        transform: translateX(70px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0) ;
+    }
+}
 
 @media(max-width:390px){
     .header ul{
@@ -1031,8 +1065,8 @@ hr{
         padding: 20px 30px;
     }
     .lx{
-        margin-left: -56px;
-        margin-top: 70%;
+        margin-left: 14%;
+        margin-top: 6%;
     }
     .bx{
         margin-left: -60px;
@@ -1046,6 +1080,225 @@ hr{
         display: block;
         margin-left: -7%;
         margin-top: 3%;
+    }
+    .box-cont{
+        margin-bottom: 50px;
+    }
+    .blog{
+        display: block;
+        height: 250vh;
+        padding-left: 15%;
+    }
+    .vg{
+        display: block;
+    }
+    .mr img{
+        width: 300px;
+    }
+    .nb i{
+        margin-left: -90px;
+    }
+    .mq{
+        display: block;
+    }
+    .nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 170px;
+    font-size: 1em;
+    gap: 40px;
+      
+      
+
+    }
+    .kl{
+      margin-top: -20px;
+      margin-bottom: 10px;
+      
+    }
+
+    .core-container{
+        display: block;
+    }
+    .core{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .nvbr{
+        margin-left: 20px;
+    }
+    .testi-container{
+        display: block;
+        margin-left: -10px;
+        
+        
+    }
+    .test-left{
+        margin-bottom: 50px;
+        
+    }
+    .testi-box{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+    }
+    .tes-box{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+
+    }
+    .tes{
+        width: 290px;
+        height: 54vh;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    .tes img{
+        width: 330px;
+        height: 45vh;
+    }
+    .tes-tt{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+    }
+    .client{
+        display: block;
+        margin-left: -80px;
+    }
+    .left-clients p:nth-of-type(2){
+        width: 360px;
+        margin-bottom: 40px;
+
+    }
+    .client-box img{
+        width: 330px;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    .clien-box img{
+        width: 330px;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    .footer1{
+        display: block;
+    }
+    .input-icon {
+        margin-top: 1039%;
+        margin-left: 160px;
+    }
+    .hom{
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .privacy{
+        margin-left: 10px;
+    }
+    .footer2{
+        display: block;
+        margin-left: 15px;
+    }
+    .canada{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+@media(min-width: 820px) and (max-width: 875px){
+    .header ul{
+        display: none;
+    }
+    .header i{
+        display: block;
+    }
+    .btn button{
+        display: none;
+    }
+    .color{
+        height: 140vh;
+    }
+    .main{
+        display: flex;
+        padding: 0;
+        margin-top: 25%;
+        padding: 20px 50px;
+    }
+    .say{
+        width: 250px;
+        
+    }
+    .ui{
+        width: 250px;
+    
+    }
+    .icon i{
+        font-size: 2em;
+    }
+    .cen-img img{
+       margin-left: -97%;
+        width: 1700px;
+        margin-top: -35%;
+    }
+    .right{
+        font-size: 1.2em;
+    }
+    .center h2{
+        font-size: 6em;
+        margin-left: -10%;
+    }
+    .center p{
+        margin-left: -3%;
+        font-size: 2em;
+    }
+    /* section-2 */
+    
+    .hero{
+        display: block;
+        padding: 20px 30px;
+    }
+    .hero-left img{
+        width: 750px;
+        height: 75vh;
+
+    }
+    .lx{
+        margin-left: 55px;
+        margin-top: 5%;
+        width: 150px;
+        width: 200px;
+        height: 7vh;
+        
+    }
+    .lx-h h3{
+        font-size: 3em;
+    }
+    .bx{
+        margin-left: 40px;
+        margin-top: 30px;
+        width: 200px;
+        height: 7vh;
+        font-size: 2em;
+
+    }
+    .li p{
+        font-size: 25px;
+    }
+    /* section-3 */
+    .tit{
+        margin-left: 60px;
+        margin-top: 5%;
+        font-size: 1.5em;
+    }
+    .tit p{
+        font-size: 25px;
+    }
+    .cont{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap:0;
     }
     .box-cont{
         margin-bottom: 50px;
