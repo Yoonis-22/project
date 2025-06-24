@@ -131,9 +131,9 @@ html{
     margin-top: -15px;
 }
 .center{
-    /* animation: center 2s ease-in-out forwards ;
+    animation: center 2s ease-in-out forwards ;
     animation-delay: 1s;
-    animation-play-state: running; */
+    animation-play-state: running;
     margin-top: -30%;
     margin-left: 22%;
 }
@@ -1003,7 +1003,7 @@ hr{
         display: none;
     }
     .color{
-        height: 130vh;
+        height: 145vh;
     }
     .main{
         display: flex;
@@ -1011,13 +1011,19 @@ hr{
         padding: 20px 10px;
     }
     .cen-img img{
-        margin-left: -55%;
+        margin-left: -110%;
+        width: 900px;
     }
     .center{
         margin-top: 2%;
     }
+    .center h2{
+        font-size: 3em;
+        margin-left: -10%;
+    }
     .center p{
-        font-size: 12px;
+        margin-left: 3%;
+        font-size: 14px;
     }
     
     .hero{
@@ -1025,8 +1031,8 @@ hr{
         padding: 20px 30px;
     }
     .lx{
-        margin-left: -50px;
-        margin-top: -20px;
+        margin-left: -56px;
+        margin-top: 70%;
     }
     .bx{
         margin-left: -60px;
@@ -1079,6 +1085,91 @@ hr{
 
     .core-container{
         display: block;
+    }
+    .core{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .nvbr{
+        margin-left: 20px;
+    }
+    .testi-container{
+        display: block;
+        margin-left: -10px;
+        
+        
+    }
+    .test-left{
+        margin-bottom: 50px;
+        
+    }
+    .testi-box{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+    }
+    .tes-box{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+
+    }
+    .tes{
+        width: 290px;
+        height: 54vh;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    .tes img{
+        width: 330px;
+        height: 45vh;
+    }
+    .tes-tt{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+    }
+    .client{
+        display: block;
+        margin-left: -80px;
+    }
+    .left-clients p:nth-of-type(2){
+        width: 360px;
+        margin-bottom: 40px;
+
+    }
+    .client-box img{
+        width: 330px;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    .clien-box img{
+        width: 330px;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    .footer1{
+        display: block;
+    }
+    .input-icon {
+        margin-top: 1039%;
+        margin-left: 160px;
+    }
+    .hom{
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .privacy{
+        margin-left: 10px;
+    }
+    .footer2{
+        display: block;
+        margin-left: 15px;
+    }
+    .canada{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
 }
