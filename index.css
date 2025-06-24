@@ -1298,28 +1298,40 @@ hr{
     .cont{
         display: grid;
         grid-template-columns: auto auto;
-        gap:0;
+        gap: 5px;
     }
     .box-cont{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
+
+    /* section-5 */
     .blog{
         display: block;
-        height: 250vh;
+        height: 100vh;
         padding-left: 15%;
     }
     .vg{
-        display: block;
+        display: flex;
+        gap: 110px;
+        margin-top: 3%;
+       
     }
     .mr img{
-        width: 300px;
+        width: 170px;
     }
     .nb i{
         margin-left: -90px;
     }
+    
     .mq{
         display: block;
+        
+
     }
+    .my p:nth-of-type(2){
+        width: 500px;
+    }
+    /* section-5 */
     .nav{
     display: grid;
     grid-template-columns: auto auto;
@@ -1335,19 +1347,26 @@ hr{
       margin-bottom: 10px;
       
     }
+    /* section-6 */
+    .skill{
+        
+    }
 
     .core-container{
-        display: block;
+        display: grid;
+        grid-template-columns: auto auto;
     }
     .core{
         margin-bottom: 30px;
-        margin-left: 20px;
+        height: 30vh;
     }
     .nvbr{
-        margin-left: 20px;
+        height: 30vh;
     }
+    /* section-7 */
     .testi-container{
-        display: block;
+        display: flex;
+        gap: 0;
         margin-left: -10px;
         
         
@@ -1357,24 +1376,31 @@ hr{
         
     }
     .testi-box{
-        width: 290px;
-        height: 39vh;
+        width: 330px;
+        height: 29vh;
         margin-left: 40px;
     }
     .tes-box{
-        width: 290px;
-        height: 39vh;
+        width: 330px;
+        height: 29vh;
         margin-left: 40px;
 
     }
+    .test-title{
+        margin-top: 7%;
+    }
+    .test-title h1{
+        font-size: 2.5em;
+
+    }
     .tes{
-        width: 290px;
+        width: 330px;
         height: 54vh;
         margin-left: 40px;
         margin-bottom: 30px;
     }
     .tes img{
-        width: 330px;
+        width: 370px;
         height: 45vh;
     }
     .tes-tt{
@@ -1382,6 +1408,7 @@ hr{
         height: 39vh;
         margin-left: 40px;
     }
+    /* section-8 */
     .client{
         display: block;
         margin-left: -80px;
@@ -1391,15 +1418,32 @@ hr{
         margin-bottom: 40px;
 
     }
+    .client-box{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 15px;
+    }
+    .clien-box{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 15px;
+    }
+    
     .client-box img{
-        width: 330px;
+        display: block;
+        width: 230px;
         height: 20vh;
         margin-bottom: 20px;
     }
     .clien-box img{
-        width: 330px;
+        display: block;
+        width: 230px;
         height: 20vh;
         margin-bottom: 20px;
+    }
+    /* section-9 */
+    .footer{
+        height: 100vh;
     }
     .footer1{
         display: block;
