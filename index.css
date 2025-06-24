@@ -1443,30 +1443,24 @@ hr{
     }
     /* section-9 */
     .footer{
-        height: 100vh;
+        height: 60vh;
     }
+
     .footer1{
-        display: block;
+        display: flex;
+        
     }
     .input-icon {
-        margin-top: 1039%;
-        margin-left: 160px;
+        margin-top: -112%;
+        margin-left: 80px;
     }
-    .hom{
-        margin-left: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .privacy{
-        margin-left: 10px;
-    }
+   
     .footer2{
-        display: block;
-        margin-left: 15px;
+        display: flex;
+        gap: 30px;
+        margin-top: 5%;
     }
-    .canada{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+    
+    
 
 }
