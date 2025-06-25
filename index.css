@@ -142,7 +142,7 @@ span{
       margin-top: 5%;
       animation: right 2s ease-in-out forwards ;
       animation-delay: 1s;
-      
+     
 }
 .one{
    margin-bottom: 10px;
@@ -215,6 +215,7 @@ hr{
     border-radius: 10px;
     animation: main-right 2s ease-in-out forwards;
     animation-delay: 1s;
+    animation-timeline: view(50% auto);
     
     
     
@@ -252,6 +253,7 @@ hr{
     z-index: 1;
     animation: main-left 2s ease-in-out forwards;
     animation-delay: 1s;
+    animation-timeline: view(50% auto);
 }
 .lx-h h3{
     font-size: 35px;
