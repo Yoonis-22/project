@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -13,6 +14,7 @@ html{
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
+    overflow: hidden;
 }
 .header i{
     font-size: 2.5em;
@@ -42,6 +44,7 @@ html{
 }
 .btn{
     margin-top: 7px;
+    
 }
 .btn button {
     border: none;
@@ -61,6 +64,7 @@ html{
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
+    overflow: hidden;
 }
 .left{
     margin-top: 5%;
@@ -189,6 +193,7 @@ hr{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
+    overflow: hidden;
 }
 .hero-left img{
     width: 300px;
@@ -215,10 +220,6 @@ hr{
     border-radius: 10px;
     animation: main-right 2s ease-in-out forwards;
     animation-delay: 1s;
-    animation-timeline: view(50% auto);
-    
-    
-    
 }
 .pi p:nth-of-type(1){
     color: white;
@@ -253,7 +254,7 @@ hr{
     z-index: 1;
     animation: main-left 2s ease-in-out forwards;
     animation-delay: 1s;
-    animation-timeline: view(50% auto);
+    
 }
 .lx-h h3{
     font-size: 35px;
@@ -348,6 +349,7 @@ hr{
     gap: 70px;
     padding: 20px 60px;
     margin-top: 1.5%;
+    overflow: hidden;
 }
 .box-cont:hover{
     transform: translateY(-20px);
@@ -456,6 +458,7 @@ hr{
     background: linear-gradient(to right, #FCF0F0, #D5E7FF);
     padding-top: 5%;
     height: 80vh;
+    overflow: hidden;
 }
 .mo h3{
     font-size: 2em;
@@ -883,17 +886,20 @@ hr{
 .footer{
     background: linear-gradient(to right, #FF651D , #FF9521);
     color: white;
+    overflow: hidden;
 }
 .footer1{
     display: flex;
     justify-content: space-between;
     padding: 5% 40px;
+    overflow: hidden;
 }
 .footer2{
     display: flex;
     justify-content: space-between;
     padding: 0px 30px;
     margin-top: -10px;
+    overflow: hidden;
 }
 .input-icon {
     width: 20px;
@@ -1190,6 +1196,190 @@ hr{
     .input-icon {
         margin-top: 1039%;
         margin-left: 160px;
+    }
+    .hom{
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .privacy{
+        margin-left: 10px;
+    }
+    .footer2{
+        display: block;
+        margin-left: 15px;
+    }
+    .canada{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    body{
+        overflow: hidden;
+    }
+
+}
+@media(max-width:428px){
+    .header ul{
+        display: none;
+    }
+    .header i{
+        display: block;
+    }
+    .btn button{
+        display: none;
+    }
+    .color{
+        height: 145vh;
+    }
+    .main{
+        display: flex;
+        padding: 0;
+        padding: 20px 10px;
+    }
+    .cen-img img{
+        margin-left: -110%;
+        width: 900px;
+    }
+    .center{
+        margin-top: 2%;
+    }
+    .center h2{
+        font-size: 3em;
+        margin-left: -10%;
+    }
+    .center p{
+        margin-left: 3%;
+        font-size: 14px;
+    }
+    
+    .hero{
+        display: block;
+        padding: 20px 30px;
+    }
+    .lx{
+        margin-left: 14%;
+        margin-top: 6%;
+    }
+    .bx{
+        margin-left: -60px;
+        margin-top: 30px;
+    }
+    .tit{
+        margin-left: 30px;
+        margin-top: 3%;
+    }
+    .cont{
+        display: block;
+        margin-left: -7%;
+        margin-top: 3%;
+    }
+    .box-cont{
+        margin-bottom: 50px;
+    }
+    .blog{
+        display: block;
+        height: 250vh;
+        padding-left: 15%;
+    }
+    .vg{
+        display: block;
+    }
+    .mr img{
+        width: 300px;
+    }
+    .nb i{
+        margin-left: -90px;
+    }
+    .mq{
+        display: block;
+    }
+    .nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 170px;
+    font-size: 1em;
+    gap: 40px;
+      
+      
+
+    }
+    .kl{
+      margin-top: -20px;
+      margin-bottom: 10px;
+      
+    }
+
+    .core-container{
+        display: block;
+    }
+    .core{
+        margin-bottom: 30px;
+        
+    }
+    .nvbr{
+        
+    }
+    .testi-container{
+        display: block;
+        margin-left: -10px;
+        
+        
+    }
+    .test-left{
+        margin-bottom: 50px;
+        
+    }
+    .testi-box{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+    }
+    .tes-box{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+
+    }
+    .tes{
+        width: 290px;
+        height: 54vh;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    .tes img{
+        width: 330px;
+        height: 45vh;
+    }
+    .tes-tt{
+        width: 290px;
+        height: 39vh;
+        margin-left: 40px;
+    }
+    .client{
+        display: block;
+        margin-left: -80px;
+    }
+    .left-clients p:nth-of-type(2){
+        width: 360px;
+        margin-bottom: 40px;
+
+    }
+    .client-box img{
+        width: 330px;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    .clien-box img{
+        width: 330px;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    .footer1{
+        display: block;
+    }
+    .input-icon {
+        margin-top: 944.5%;
+        margin-left: 150px;
     }
     .hom{
         margin-left: 10px;
