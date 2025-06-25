@@ -1205,6 +1205,9 @@ hr{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    body{
+        overflow: hidden;
+    }
 
 }
 @media(min-width: 820px) and (max-width: 875px){
@@ -1457,6 +1460,9 @@ hr{
         display: flex;
         gap: 30px;
         margin-top: 5%;
+    }
+    body{
+        overflow: hidden;
     }
     
     

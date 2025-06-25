@@ -269,6 +269,9 @@ span{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    body{
+        overflow: hidden;
+    }
 }
 @media(min-width:820px) and (max-width:875px){
     .header ul{
@@ -305,6 +308,9 @@ span{
     .input-icon {
        margin-top: -44%;
         margin-left: 80px;
+    }
+    body{
+        overflow: hidden;
     }
    
     
