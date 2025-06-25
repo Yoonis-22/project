@@ -261,3 +261,87 @@ span{
 .Germany p{
     line-height: 35px;
 }
+
+@media(max-width:390px){
+    .header ul{
+        display: none;
+    }
+    .btn button{
+        display: none;
+    }
+    .header i{
+        display: block;
+    }
+    /* section-2 */
+    .hero{
+        display: block;
+        margin-left: 3%;
+    }
+    .hero-left img{
+        width: 350px;
+    }
+    .hero-right{
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    /* section-3 */
+    .footer1{
+        display: block;
+    }
+    .input-icon {
+        margin-top: 61.5%;
+        margin-left: 160px;
+    }
+    .hom{
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .privacy{
+        margin-left: 10px;
+    }
+    .footer2{
+        display: block;
+        margin-left: 15px;
+    }
+    .canada{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:820px) and (max-width:875px){
+    .header ul{
+        display: none;
+        
+    }
+    .header i{
+        display: block;
+    }
+    .btn button{
+        display: none;
+    }
+    .color{
+        height: 40vh;
+    }
+    .hero{
+        display: block;
+    }
+    .hero-left img{
+        width: 500px;
+        margin-left: 16%;
+        margin-bottom: 20px;
+    }
+    .hero-right{
+        margin-left: 16%;
+        margin-bottom: 20px;
+    }
+    /* section-3 */
+
+    
+    .input-icon {
+       margin-top: -22.6%;
+        margin-left: 80px;
+    }
+   
+    
+}

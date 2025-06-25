@@ -1122,10 +1122,10 @@ hr{
     }
     .core{
         margin-bottom: 30px;
-        margin-left: 20px;
+        
     }
     .nvbr{
-        margin-left: 20px;
+        
     }
     .testi-container{
         display: block;
@@ -1348,9 +1348,7 @@ hr{
       
     }
     /* section-6 */
-    .skill{
-        
-    }
+    
 
     .core-container{
         display: grid;
