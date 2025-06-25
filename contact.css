@@ -288,9 +288,10 @@ span{
     }
     /* section-2 */
     .artcile{
-        display: grid;
-        grid-template-columns: auto;
-        
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 6%;
+        width: 350px;
     }
     .conact{
         margin-left: -12%;
@@ -301,8 +302,8 @@ span{
         display: block;
     }
     .input-icon {
-        margin-top: -107%;
-        margin-left: 130px;
+        margin-top: 31%;
+        margin-left: 150px;
     }
     .hom{
         margin-left: 10px;
