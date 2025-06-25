@@ -90,6 +90,7 @@ span{
     gap: 30px;
     margin-top: -55px;
     margin-left: 40px;
+    
 }
 .article-icon{
     display: flex;
@@ -271,4 +272,95 @@ span{
 }
 .Germany p{
     line-height: 35px;
+}
+
+/* responsive-css */
+
+@media(max-width:390px){
+    .header ul{
+        display: none;
+    }
+    .btn button{
+        display: none;
+    }
+    .header i{
+        display: block;
+    }
+    /* section-2 */
+    .artcile{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .conact{
+        margin-left: -12%;
+        margin-bottom: 20px;
+    }
+    /* section-3 */
+    .footer1{
+        display: block;
+    }
+    .input-icon {
+        margin-top: -107%;
+        margin-left: 130px;
+    }
+    .hom{
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .privacy{
+        margin-left: 10px;
+    }
+    .footer2{
+        display: block;
+        margin-left: 15px;
+    }
+    .canada{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:820px) and (max-width:875px){
+    .header ul{
+        display: none;
+        
+    }
+    .header i{
+        display: block;
+    }
+    .btn button{
+        display: none;
+    }
+    .color{
+        height: 40vh;
+    }
+    .artcile{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+    .conact{
+        margin-left: -14%;
+    }
+    .form input{
+        width: 600px;
+        height: 65px;
+    }
+    .form textarea{
+        width: 600px;
+        height: 205px;
+    }
+    .submit input{
+        width: 200px;
+    }
+    /* section-3 */
+
+    
+    .input-icon {
+       margin-top: -79.8%;
+        margin-left: 80px;
+    }
+   
+    
 }
