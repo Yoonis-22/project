@@ -68,9 +68,9 @@ html{
 }
 .left{
     margin-top: 5%;
-    animation: left 2s ease-in-out forwards ;
-    animation-delay: 1s;
-
+    animation: left  forwards ;
+    animation-timeline: view;
+    animation-range: entry 30%;
 }
 .ui{
     background:linear-gradient(to right , #0A0831, #0F0C51);
@@ -144,8 +144,10 @@ span{
 }
 .right{
       margin-top: 5%;
-      animation: right 2s ease-in-out forwards ;
-      animation-delay: 1s;
+      animation: right ease-in-out forwards ;
+      
+      animation-timeline: view;
+      animation-range: entry 30%;
      
 }
 .one{
@@ -194,6 +196,9 @@ hr{
     justify-content: space-evenly;
     margin-top: 5%;
     overflow: hidden;
+    animation: Ellipse 2s forwards ease-in-out;
+    animation-timeline: view(30% auto);
+    animation-range: entry 30%;
 }
 .hero-left img{
     width: 300px;
@@ -220,6 +225,7 @@ hr{
     border-radius: 10px;
     animation: main-right 2s ease-in-out forwards;
     animation-delay: 1s;
+   
 }
 .pi p:nth-of-type(1){
     color: white;
@@ -667,6 +673,10 @@ hr{
     gap: 50px;
     margin-top: 5%;
     margin-left: 5%;
+    animation: circle 1s forwards;
+    animation-timeline: view(90% auto);
+    animation-range: entry 90%;
+   
 }
 .skill{
     text-align: center;
@@ -810,7 +820,7 @@ hr{
 
 .client-box{
     margin-bottom: 20px;
-   
+    
 }
 .client-box img{
     background-color: #000041;
@@ -872,8 +882,13 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 70px 100px;
-     background:linear-gradient(to right, #DAE9FF,#FCEEED);
-     margin-top: 5%;
+    background:linear-gradient(to right, #DAE9FF,#FCEEED);
+    margin-top: 5%;
+    animation:  rounded linear forwards;
+    animation-timeline: view(5% auto);
+    animation-range: entry 5%;
+   
+     
 }
 .client-box img:hover{
     transform: translateY(-10px);
@@ -980,6 +995,17 @@ hr{
 .Germany p{
     line-height: 35px;
 }
+
+@keyframes Ellipse{
+    0%{
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 @keyframes left {
     0%{
         opacity: 0;
@@ -990,6 +1016,26 @@ hr{
         transform: translateX(0);
     }
 
+}
+@keyframes circle{
+    0%{
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes rounded {
+    0%{
+        opacity: 0;
+        transform :translatey(300px)
+
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 @keyframes center{
     0%{
