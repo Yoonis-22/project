@@ -202,7 +202,7 @@ span{
     padding: 10px 10px;
     border-radius: 50%;
     position: absolute;
-    top: 248.3%;
+    top: 340%;
     left: 18%;
 }
 .footer-icon i:hover{
@@ -297,7 +297,7 @@ span{
         margin-left: -12%;
         margin-bottom: 20px;
     }
-    /* section-3 */
+    /*  section-3*/
     .footer1{
         display: block;
     }
